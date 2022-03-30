@@ -9,8 +9,8 @@ import { Component } from "react"
 // }
 
 interface Props {
-  label: string
-  value: string
+  label: string;
+  value: string;
 }
 
 const CustomTextField = (props: Props) => {
@@ -48,7 +48,11 @@ class ComponentToPrint extends Component {
 						</Grid>
 					</Grid>
 					<Grid item xs={3}>
-						<img src={`${process.env.PUBLIC_URL}/images/おはよ.png`} alt='test' style={{ width: "100%" }} />
+						<img
+							src={`${process.env.PUBLIC_URL}/images/おはよ.png`}
+							alt="test"
+							style={{ width: "100%" }}
+						/>
 					</Grid>
 					<Grid item xs={9}>
 						<CustomTextField label="住所" value="日本" />

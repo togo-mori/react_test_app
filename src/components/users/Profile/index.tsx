@@ -1,14 +1,5 @@
 import React from "react"
-import {
-	Button,
-	Card,
-	CardActions,
-	CardContent,
-	CardMedia,
-	makeStyles,
-	Theme,
-	Typography,
-} from "@mui/material"
+import { Button, Card, CardActions, CardContent, CardMedia, Typography } from "@mui/material"
 import { useRef } from "react"
 import ReactToPrint from "react-to-print"
 import ComponentToPrint from "../ComponentToPrint"
